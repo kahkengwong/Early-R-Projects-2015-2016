@@ -4,12 +4,8 @@
 # Description: This script generates line graphs for FOXP2 heatmap data, specifically for Fig 6 in the Oncotarget FOXP2 paper (PMID: 27224915).
 # The script creates two plots: one for GCB-DLBCL and another for ABC-DLBCL, comparing immune/TCR heatmap data.
 # The plots use ggplot2 for visualization, with data sourced from Excel files ("Ggplot2_line_ABC-DLBCL.xlsx" and "Ggplot2_line_GCB-DLBCL.xlsx").
-# Repository: This script is part of the Early-R-Projects-2015-2018 repository on GitHub (kahkengwong/Early-R-Projects-2015-2018).
 
 # Step 1: Install required packages if not already installed
-# The 'xlsx' package is used to read Excel files into R.
-# The 'ggplot2' package is used for creating the line graphs and visualizations.
-# The 'rJava' package is a dependency for 'xlsx' to interface with Java for Excel file handling.
 install.packages("xlsx")
 install.packages("ggplot2")
 install.packages("rJava")
@@ -21,7 +17,7 @@ library(rJava)   # Required for xlsx package functionality
 
 # Step 3: Set the working directory
 # Replace "…" with the actual path to the directory containing your Excel data files.
-# Example: setwd("C:/Users/YourName/Documents/FOXP2_Heatmap_Data")
+# Example: setwd("C:/...") # The directory
 setwd("…") # Directory
 
 # Step 4: Load the ABC-DLBCL dataset
