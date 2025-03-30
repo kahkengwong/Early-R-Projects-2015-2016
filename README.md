@@ -19,14 +19,11 @@ This repository includes R scripts for the following projects:
 
 Below is a list of the R scripts included in this repository, along with their purposes and associated publications:
 
-- **[FOXP2_Heatmap_LineGraphs.R](FOXP2_Heatmap_LineGraphs.R)**  
-  Generates line graphs for FOXP2 heatmap data in GCB-DLBCL and ABC-DLBCL subtypes, used in Figure 6 of the Oncotarget paper "FOXP2 contributes to the malignancy of diffuse large B-cell lymphoma through the regulation of the immune microenvironment" (PMID: [27224915](https://pubmed.ncbi.nlm.nih.gov/27224915/)).
+- `2015-FOXP1-MHC-II-DLBCL-Project.r`: Creates heatscatter plots for FOXP1 expression, comparing GCB vs ABC subtypes and cell lines (DB, Ly3, K422, HBL1), used in Figure 2 and Supplemental Figure 2 of the Oncotarget paper "FOXP1 acts as an oncogene in promoting the malignancy of diffuse large B-cell lymphoma through the regulation of the tumor microenvironment" (PMID: [26500140](https://pubmed.ncbi.nlm.nih.gov/26500140/)).
+  
+- `2015-FOXP2-DLBCL-Project.r`: Generates line graphs for FOXP2 heatmap data in GCB-DLBCL and ABC-DLBCL subtypes, used in Figure 6 of the Oncotarget paper "FOXP2 contributes to the malignancy of diffuse large B-cell lymphoma through the regulation of the immune microenvironment" (PMID: [27224915](https://pubmed.ncbi.nlm.nih.gov/27224915/)).
 
-- **[FOXP1_Heatscatter_Plots.R](FOXP1_Heatscatter_Plots.R)**  
-  Creates heatscatter plots for FOXP1 expression, comparing GCB vs ABC subtypes and cell lines (DB, Ly3, K422, HBL1), used in Figure 2 and Supplemental Figure 2 of the Oncotarget paper "FOXP1 acts as an oncogene in promoting the malignancy of diffuse large B-cell lymphoma through the regulation of the tumor microenvironment" (PMID: [26500140](https://pubmed.ncbi.nlm.nih.gov/26500140/)).
-
-- **[HIP1R_Lenz_vs_VY_Heatscatter.R](HIP1R_Lenz_vs_VY_Heatscatter.R)**  
-  Produces a heatscatter plot comparing Lenz and VY microarray data for HIP1R expression in DLBCL, used in the analysis for the Experimental Molecular Pathology paper "Low HIP1R mRNA and protein expression are associated with worse survival in diffuse large B-cell lymphoma patients treated with R-CHOP" (PMID: [26341140](https://pubmed.ncbi.nlm.nih.gov/26341140/)).
+- `2015-HIP1R-DLBCL-Project.r`: Produces a heatscatter plot comparing Lenz and VY microarray data for HIP1R expression in DLBCL, used in the analysis for the Experimental Molecular Pathology paper "Low HIP1R mRNA and protein expression are associated with worse survival in diffuse large B-cell lymphoma patients treated with R-CHOP" (PMID: [26341140](https://pubmed.ncbi.nlm.nih.gov/26341140/)).
 
 ## Getting Started
 
