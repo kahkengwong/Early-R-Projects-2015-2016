@@ -11,8 +11,8 @@ Welcome to the **Early R Projects (2015-2016)** repository! This collection cont
 ## Repository Overview
 
 This repository includes R scripts for the following projects:
-- **FOXP2 Heatmap Analysis**: Line graphs for FOXP2 expression in DLBCL subtypes (GCB and ABC).
 - **FOXP1 Heatscatter Analysis**: Heatscatter plots for FOXP1 expression in GCB vs ABC subtypes and other cell lines.
+- **FOXP2 Heatmap Analysis**: Line graphs for FOXP2 expression in DLBCL subtypes (GCB and ABC).
 - **HIP1R Expression Analysis**: Heatscatter plots comparing Lenz and VY microarray data for HIP1R in DLBCL.
 
 ## Scripts
