@@ -2,15 +2,12 @@
 # Author: Kah Keng Wong
 # Date: 19/4/15 
 # Description: This script generates graphs for FOXP1 paper published in Leukemia 2016 (PMID: 26500140) titled "FOXP1 suppresses immune response signatures and MHC class II expression in activated B-cell-like diffuse large B-cell lymphomas"
-# Description: This script generates heatscatter plots for FOXP1 expression data, as part of the analysis for the Oncotarget paper (PMID: 26500140).
 # The script creates multiple heatscatter plots for Figure 2 and Supplemental Figure 2, comparing GCB vs ABC subtypes and other cell lines (DB, Ly3, K422, HBL1).
 # The plots are generated using the LSD package's heatscatter function, with data sourced from Excel files.
-# Repository: This script is part of the Early-R-Projects-2015-2018 repository on GitHub (kahkengwong/Early-R-Projects-2015-2018).
 
 # Step 1: Install and load required packages
 # The 'xlsx' package is used to read Excel files into R.
 # The 'rJava' package is a dependency for 'xlsx' to interface with Java for Excel file handling.
-# The 'car' package is used for statistical analysis (though not explicitly used in this script, it may be a dependency).
 # The 'RColorBrewer' package provides color palettes for visualization.
 # The 'LSD' package provides the heatscatter function for density scatter plots.
 install.packages("xlsx")
@@ -206,7 +203,4 @@ heatscatter(x4, y4, colpal="matlablike", main=NULL, xlab=NA, ylab=NA, pch=16, ce
 dev.off()
 
 # Notes:
-# - The script includes alternative plotting options (e.g., non-gradient with alpha) that were not used in the final version.
 # - To reverse the color palette, add 'rev=TRUE' to the heatscatter() function (e.g., heatscatter(..., rev=TRUE)).
-# - The Supplemental Figure 2 section assumes the same Excel file for Ly3, K422, and HBL1 data; adjust the file names if they are different.
-# - Ensure all Excel files are in the specified working directories before running the script.
