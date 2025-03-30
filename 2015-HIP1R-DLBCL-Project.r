@@ -4,7 +4,6 @@
 # Description: This script generates a heatscatter plot comparing median expression values of 42k+ probes between Lenz and VY microarrays, with an overlay of manually selected markers (including HIP1R) that show extreme values towards GCB or ABC subtypes of diffuse large B-cell lymphoma (DLBCL).
 # The plot is part of the analysis for the paper "Low HIP1R mRNA and protein expression are associated with worse survival in diffuse large B-cell lymphoma patients treated with R-CHOP" published in Experimental Molecular Pathology (PMID: 26341140).
 # The heatscatter plot uses the LSD package to visualize the density of data points, with a secondary layer highlighting specific markers.
-# Repository: This script is part of the Early-R-Projects-2015-2018 repository on GitHub (kahkengwong/Early-R-Projects-2015-2018).
 
 # Step 1: Install and load required packages
 # The 'xlsx' package is used to read Excel files containing the microarray data.
