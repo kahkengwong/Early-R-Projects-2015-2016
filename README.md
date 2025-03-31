@@ -25,15 +25,6 @@ Below is a list of the R scripts included in this repository, along with their p
 
 - `2015-HIP1R-DLBCL-Project.r`: Produces a heatscatter plot comparing Lenz and VY microarray data for HIP1R expression in DLBCL, used in the analysis for the Experimental Molecular Pathology paper "Low HIP1R mRNA and protein expression are associated with worse survival in diffuse large B-cell lymphoma patients treated with R-CHOP" (PMID: [26341140](https://pubmed.ncbi.nlm.nih.gov/26341140/)).
 
-## Getting Started
-
-### Prerequisites
-To run these scripts, you need:
-- **R**: Version 3.0 or higher (most scripts were developed in 2015-2018, so compatibility with older versions is likely).
-- **R Packages**: Each script specifies required packages (e.g., `xlsx`, `ggplot2`, `LSD`, `metafor`, `beeswarm`). Install them using `install.packages()` as shown in the scripts.
-- **Java**: Required for the `xlsx` package (used in most scripts). Alternatively, you can replace `xlsx` with `readxl` to avoid this dependency.
-- **Excel Files**: The scripts reference specific Excel files (e.g., `R_Forest_aCL-only.xlsx`, `Ggplot2_line_ABC-DLBCL.xlsx`). These files are not included in the repository due to potential sensitivity but can be requested if needed (see [Contact](#contact)).
-
 ---
 
 ## License
