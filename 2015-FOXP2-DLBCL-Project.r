@@ -1,5 +1,4 @@
 # Title: Line Graphs for FOXP2 Heatmap Analysis
-# Author: kahkengwong
 # Date: 6/11/2015
 # Description: This script generates line graphs for FOXP2 heatmap data, specifically for Fig 6 in the Oncotarget FOXP2 paper (PMID: 27224915).
 # The script creates two plots: one for GCB-DLBCL and another for ABC-DLBCL, comparing immune/TCR heatmap data.
