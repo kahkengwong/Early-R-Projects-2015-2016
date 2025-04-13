@@ -1,5 +1,4 @@
 # Title: Graphs for FOXP1 and MHC II Project 
-# Author: Kah Keng Wong
 # Date: 19/4/15 
 # Description: This script generates graphs for FOXP1 paper published in Leukemia 2016 (PMID: 26500140) titled "FOXP1 suppresses immune response signatures and MHC class II expression in activated B-cell-like diffuse large B-cell lymphomas"
 # The script creates multiple heatscatter plots for Figure 2 and Supplemental Figure 2, comparing GCB vs ABC subtypes and other cell lines (DB, Ly3, K422, HBL1).
